@@ -22,4 +22,4 @@ jobs:
         aws-region: us-west-2  # replace with your AWS region
 
     - name: Sync templates folder to S3
-      run: aws s3 sync templates/ s3://cms.admin.containerize.com/ --delete
+      run: aws s3 sync templates/ s3://cms.admin.containerize.com/templates/ --delete
